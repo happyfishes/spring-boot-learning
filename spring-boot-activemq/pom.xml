@@ -9,12 +9,12 @@
         <version>2.1.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    
+
     <groupId>com.itea</groupId>
-    <artifactId>spring-boot-redis</artifactId>
+    <artifactId>spring-boot-activemq</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>spring-boot-redis</name>
+    <name>spring-boot-activemq</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -26,11 +26,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-pool2</artifactId>
+            <artifactId>spring-boot-starter-activemq</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
